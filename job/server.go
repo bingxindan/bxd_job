@@ -1,10 +1,10 @@
 package job
 
 import (
-	"bxd_job/bootstrap"
 	"context"
 	"github.com/bingxindan/bxd_go_lib/logger"
 	"github.com/bingxindan/bxd_go_lib/tools/confutil"
+	"github.com/bingxindan/bxd_job/bootstrap"
 	"github.com/spf13/cast"
 	"os"
 	"os/signal"
