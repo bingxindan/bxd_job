@@ -63,6 +63,9 @@ func (s *Server) Start() (err error) {
 	}
 
 	go s.dealExitSignal()
+	go s.doJob()
+
+	<-s.exit
 
 	return nil
 }
